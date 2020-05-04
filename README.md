@@ -2,7 +2,7 @@
 
 css are styling elements of a html page, allmost all websites have fancy elements which are results of this.
 
-Websites are themed by defining custom css and making them override the original website's
+websites are themed by defining custom css and making them override the original.
 
 2 commons ways to do this,
 * using plugins or addons
@@ -22,9 +22,9 @@ and outline) stylish plugin replaces syntax `/*[[color]]*/` with appropirate lab
 # **Defining in userContent.css** (specific for firefox)
 
 [[guide](https://www.reddit.com/r/FirefoxCSS/comments/73dvty/tutorial_how_to_create_and_livedebug_userchromecss/)] 
-along with chrome/userChrome.css (not necessary for this particular purpose) create file chrome/userContent.css
+along with chrome/userChrome.css (not necessary for this particular purpose) create a file chrome/userContent.css
 
-when variable are defined in userContent.css it effects globally
+when variables are defined in userContent.css it effects globally
 ```
 :root {
     --background: #000000;
@@ -32,11 +32,10 @@ when variable are defined in userContent.css it effects globally
     --outline: #809c7f;
 }
 ```
-instead of explicitly choosing colors for each website styles, using variables like 'background: var(--background) !important;' in 
-all styles will use colors globally defined (themes uniform among different websites)
+instead of explicitly choosing colors for each website styles, using variables like ` background: var(--background) !important; ` in 
+all styles will use colors defined in userContent.css (uniform theme among different websites)
 
-css in styles plugin along with appropriate namespace eg: ` @-moz-document domain("duckduckgo.com") ` can copied to userContent.css directly
-so external plugin is no longer needed.
+css in styles plugin along with appropriate namespace eg: ` @-moz-document domain("duckduckgo.com") ` can be copied to userContent.css directly so external plugin is no longer needed.
 
 # Screenshots
 (images will redirect to userstyles.org)
@@ -48,8 +47,7 @@ so external plugin is no longer needed.
 
 ## Notes
 
-* when using 'inspect element' try to find inherited parts so effects are throughout instead of defining in ` this element {..} `
-unless that's what you're intended.
+* when using 'inspect element' try to find inherited parts so effects are throughout instead of defining in ` this element {..} ` unless that's what you're intended.
 * for a good intro about css [noob-friendly guide](https://developer.mozilla.org/en-US/docs/Web/CSS) from mozilla
 
 
