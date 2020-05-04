@@ -8,7 +8,7 @@ websites are themed by defining custom css and making them override the original
 * using plugins or addons
 * defining in userContent.css
 
-# **Using Plugin** - [stylish](https://github.com/stylish-userstyles/stylish)
+# **Using Plugins** - [stylish](https://github.com/stylish-userstyles/stylish), [stylus](https://github.com/openstyles/stylus)
 
 * finding styles and applying on the fly with inline check
 
@@ -48,7 +48,7 @@ css in styles plugin along with appropriate namespace eg: ` @-moz-document domai
 ## Notes
 
 * when using 'inspect element' try to find inherited parts so effects are throughout instead of defining in ` this element {..} ` unless that's what you're intended.
-* for a good intro about css [noob-friendly guide](https://developer.mozilla.org/en-US/docs/Web/CSS) from mozilla
+* good intro about css [noob-friendly guide](https://developer.mozilla.org/en-US/docs/Web/CSS) from mozilla
 
 
    [![license](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
