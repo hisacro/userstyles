@@ -246,7 +246,7 @@ color: /*[[outline]]*/ !important;}
 .fr-box.fr-basic .fr-element, .input input {
  color:/*[[foreground]]*/ !important;}
 
-.attachUploadList {
+.attachUploadList, .attachment {
  background:none !important;
  border:none !important;
 }
