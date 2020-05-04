@@ -242,6 +242,15 @@ a.button {
 .fr-toolbar .fr-command.fr-btn, .fr-popup .fr-command.fr-btn, .fr-separator {
 color: /*[[outline]]*/ !important;}
 
+/* new thread */	
+.fr-box.fr-basic .fr-element, .input input {
+ color:/*[[foreground]]*/ !important;}
+
+.attachUploadList {
+ background:none !important;
+ border:none !important;
+}
+
 /* similar thread */
 .block-container.block--similarContents {
 border-radius: 0px !important;
