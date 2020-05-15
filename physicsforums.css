@@ -242,6 +242,9 @@ a.button {
 .fr-toolbar .fr-command.fr-btn, .fr-popup .fr-command.fr-btn, .fr-separator {
 color: /*[[outline]]*/ !important;}
 
+.fr-separator {
+ background:/*[[outline]]*/ !important;}
+
 /* new thread */	
 .fr-box.fr-basic .fr-element, .input input {
  color:/*[[foreground]]*/ !important;}
