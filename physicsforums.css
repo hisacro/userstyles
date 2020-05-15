@@ -239,7 +239,7 @@ a.button {
  line-height:1.2
 }
 	
-.fr-toolbar .fr-command.fr-btn, .fr-popup .fr-command.fr-btn, .fr-separator {
+.fr-toolbar .fr-command.fr-btn, .fr-popup .fr-command.fr-btn, .fr-separator, .button {
 color: /*[[outline]]*/ !important;}
 
 .fr-separator {
